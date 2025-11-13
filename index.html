@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Elohim - Aplicativo Oficial</title>
+    <meta name="description" content="Baixe o aplicativo oficial da Igreja Elohim. Cultos ao vivo, orações, eventos e muito mais.">
+    <link rel="icon" href="./elohim-logo-new.png" type="image/png">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Igreja Elohim - Aplicativo Oficial">
+    <meta property="og:description" content="Baixe o aplicativo oficial da Igreja Elohim. Cultos ao vivo, orações, eventos e muito mais.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="logo-container">
+                <img src="./imgs/elohim-logo-new.png" alt="Igreja Elohim" class="loading-logo">
+                <div class="loading-ring"></div>
+            </div>
+            <h1 class="loading-title">ELOHIM</h1>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+            </div>
+            <p class="loading-text">Carregando...</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content hidden">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo-section">
+                        <img src="./imgs/notfun.png" alt="Igreja Elohim" class="header-logo">
+                        <span class="logo-text">ELOHIM</span>
+                    </div>
+                    <button class="download-btn-header" onclick="scrollToSection('download')">
+                        Baixar App
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-logo floating">
+                        <img src="./imgs/notfun.png" alt="Igreja Elohim">
+                    </div>
+                    
+                    <h1 class="hero-title">Igreja ELOHIM</h1>
+                    
+                    <p class="hero-description">
+                        Conecte-se com Deus e nossa comunidade através do nosso aplicativo oficial. 
+                        Cultos ao vivo, orações, eventos e muito mais na palma da sua mão.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="scrollToSection('download')">
+                            <span class="btn-icon">▶</span>
+                            Baixar Agora
+                        </button>
+                        <button class="btn-secondary" onclick="scrollToSection('features')">
+                            Saiba Mais
+                        </button>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Membros Ativos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Eventos/Mês</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Orações</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Gratuito</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Recursos do Aplicativo</h2>
+                    <p class="section-description">
+                        Tudo que você precisa para fortalecer sua vida espiritual
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span>▶</span>
+                        </div>
+                        <h3 class="feature-title">Cultos ao Vivo</h3>
+                        <p class="feature-description">
+                            Assista aos cultos em tempo real com qualidade HD
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span>📅</span>
+                        </div>
+                        <h3 class="feature-title">Agenda de Eventos</h3>
+                        <p class="feature-description">
+                            Fique por dentro de todos os eventos e atividades
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span>❤️</span>
+                        </div>
+                        <h3 class="feature-title">Orações Diárias</h3>
+                        <p class="feature-description">
+                            Receba orações e reflexões personalizadas
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <span>👥</span>
+                        </div>
+                        <h3 class="feature-title">Comunidade</h3>
+                        <p class="feature-description">
+                            Conecte-se com outros membros da igreja
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download" class="download">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Baixe Nosso Aplicativo</h2>
+                    <p class="section-description">
+                        Disponível para Android e iOS. Baixe gratuitamente e comece sua jornada espiritual.
+                    </p>
+                </div>
+
+                <div class="download-cards">
+                    <div class="download-card android">
+                        <div class="download-card-content">
+                            <div class="platform-icon">
+                                <span>🤖</span>
+                            </div>
+                            <h3>Android</h3>
+                            <p>Baixe Aqui! ⬇️</p>
+                            <button class="download-button">
+                                <span>📱</span>
+                                Baixar para Android
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="download-card ios">
+                        <div class="download-card-content">
+                            <div class="platform-icon">
+                                <span>🍎</span>
+                            </div>
+                            <h3>iPhone</h3>
+                            <p>Baixe Aqui! ⬇️</p>
+                            <button class="download-button">
+                                <span>📱</span>
+                                Baixar para iPhone
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Gallery -->
+        <section class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Veja o App em Ação</h2>
+                    <p class="section-description">
+                        Conheça as principais telas e funcionalidades do nosso aplicativo
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openModal('./imgs/f1.jpg')">
+                        <img src="./imgs/f1.jpg" alt="Tela do App 1">
+                        <div class="gallery-overlay">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./imgs/f2.jpg')">
+                        <img src="./imgs/f2.jpg" alt="Tela do App 2">
+                        <div class="gallery-overlay">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./imgs/f3.jpg')">
+                        <img src="./imgs/f3.jpg" alt="Tela do App 3">
+                        <div class="gallery-overlay">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('./imgs/f4.jpg')">
+                        <img src="./imgs/f4.jpg" alt="Tela do App 4">
+                        <div class="gallery-overlay">
+                            <span>🔍</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="./imgs/notfun.png" alt="Igreja Elohim">
+                        <span>ELOHIM</span>
+                    </div>
+                    
+                    <p class="footer-description">
+                        Uma igreja comprometida em levar o amor de Deus a todas as pessoas, 
+                        conectando corações através da fé e da tecnologia.
+                    </p>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 Igreja Elohim. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="./imgs/" alt="Imagem do App">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
